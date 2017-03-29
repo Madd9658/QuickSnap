@@ -182,6 +182,7 @@
     <None Include="Resources\SwinGame.ico">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Resources\sounds\Slap.wav" />
   </ItemGroup>
   <Target Name="CopyFiles">
     <Copy SourceFiles="@(MacLibraryFiles)" DestinationFolder="$(OutDir)" />
